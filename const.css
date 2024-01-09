@@ -1,0 +1,130 @@
+@font-face
+{
+	font-family:'Great Vibes';
+	src: url('GreatVibes-Regular.otf');
+}
+
+@font-face
+{
+	font-family:'Muli';
+	src: url('Muli.ttf');
+}
+body
+{
+	max-width:100%;
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+}
+
+header
+{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #c6cccc;
+	box-shadow: 0px 0px 2px #c6cccc;
+	text-align:center;
+}
+
+.img_head
+{
+	height:18px;
+	vertical-align:middle;
+}
+
+.btm:active, .btm:link, .btm:visited
+{
+	font-family:Muli;
+	letter-spacing:2px;
+	text-align:center;
+	font-size:0.5em;
+	vertical-align:middle;
+	height:50px;
+	text-decoration:none;
+	color:#b5b5b5;
+	text-transform:uppercase;
+}
+
+/* Dropdown Button */
+.dropbtn 
+{
+    height:18px;
+	vertical-align:middle;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown 
+{
+    display: inline-block;
+	float:left;
+	margin-left:10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+	border-bottom:1px solid #ddd;
+    display: block;
+}
+
+
+.dropdown-content a:last-child
+{
+	border-bottom:0px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#totop
+{
+	height:18px;
+	line-height:50px;
+	float:right;
+	margin-right:10px;
+	margin-top:calc((50px - 18px)/2);
+	
+}
+
+footer
+{
+	background-color:#f1f1f1;
+	height:100px;
+	max-width:100%;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+
+.center
+{
+	align-items:center;
+	justify-content: center;
+	overflow:hidden;
+	display:flex;
+}
+
+.footer_menu
+{
+	text-align:center; 
+	font-family:Muli; 
+	font-size:0.6em; 
+	letter-spacing:1px; 
+	text-transform:uppercase; 
+	color:#404040; 
+	display:block;
+}
