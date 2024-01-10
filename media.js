@@ -23,7 +23,7 @@ $(document).ready(function() {
          $('#1st').hover(function() {
          $('#1s').css('color', 'white');
 		 $('#1st').css('color', '#030303');
-		 $('#1').attr('src','photo/gemini2.png');
+		 $('#1').attr('src','gemini2.png');
          }, function() {
         // on mouseout, reset the background colour
          $('#1s').css('color', '#333');
