@@ -12,6 +12,11 @@ public class Canzone {
 		this.autore = autore;	
 	}
 	
+	@Override
+	public String toString() {
+		return "Canzone [titolo=" + titolo + ", durata=" + durata + ", autore=" + autore + "]";
+	}
+	
 	public boolean haAutore (String c) {
 		if (this.autore == c) 
 			return true;
@@ -22,9 +27,5 @@ public class Canzone {
 		if (this.titolo == s.titolo  &&  this.durata == s.durata)
 			return true;
 		else return false;
-	}
-	
-	public String toString() {
-		return this.titolo + " " + this.autore + " " + this.durata;
 	}
 }
