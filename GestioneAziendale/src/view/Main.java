@@ -26,7 +26,7 @@ public class Main {
 					annoNascita = Integer.parseInt(inputI.nextLine());
 					break;
 				} catch (NumberFormatException e) {
-					System.out.println("Errore! Qualcosa e andata storto! Riprova!");
+					System.out.println("Errore! Qualcosa e andato storto! Riprovi!");
 				}
 			}
 			imp.setAnnoNascita(annoNascita);
@@ -38,7 +38,7 @@ public class Main {
 					stipendio = Integer.parseInt(inputI.nextLine());
 					break;
 				} catch (NumberFormatException e) {
-					System.out.println("Errore! Qualcosa e andata storto! Riprova!");
+					System.out.println("Errore! Qualcosa e andato storto! Riprovi!");
 				}
 			}
 
