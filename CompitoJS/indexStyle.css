@@ -55,3 +55,7 @@
 input[type=text]:focus {
     border-color:#B3B0C4;
   }
+
+.lbtn-s{
+    background-color: #3c303e;
+}
