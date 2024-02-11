@@ -19,11 +19,11 @@ let arrayItems;
 
 let p = document.createElement("p");
 card.appendChild(p);
-p.setAttribute("class","d-flex justify-content-between p-desc");
-p.innerHTML = "<span class='pe-2'>Prodotto</span>" + 
-            "<span class='ps-2'>Giorni alla scadenza</span>";
+p.setAttribute("class","row p-desc m-auto");
+p.innerHTML = "<span class='col p-0 '>Prodotto</span>" + 
+            "<span class='col p-0 text-end'>Giorni alla scadenza</span>";
 
-card.setAttribute("class","col mh-100 overflow-auto");
+card.setAttribute("class","col mh-100 overflow-auto p-0");
 
 function createList(){
     arrayItems = [];
@@ -45,7 +45,7 @@ function createTable(){
                        + "<span class='scad'>" + element.scadenza + "</span>";
         ul.appendChild(li);
         ul.setAttribute("class","l-ul");
-        li.setAttribute("class","l-li d-flex justify-content-between");
+        li.setAttribute("class","l-li d-flex justify-content-between lato-regular");
         });
 }
 
