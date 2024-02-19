@@ -1,0 +1,23 @@
+.borderGreen{
+    border: 2px solid rgba(85,183,94,1.00) ;
+    outline: 4px solid rgba(85,183,94,0.5) ;
+}
+.form-control:focus{
+    border: 2px solid rgb(20, 130, 220);
+    outline: 3px solid rgb(185, 223, 254);
+}
+
+.borderRed{
+    border: 2px solid rgba(255,57,46,1.00);
+    outline: 4px solid rgba(255,57,46,0.5);
+} 
+
+.form-control:focus.borderGreen{
+    border: 2px solid rgba(85,183,94,1.00) ;
+    outline: 4px solid rgba(85,183,94,0.5) ;
+}
+
+.form-control:focus.borderRed{
+    border: 2px solid rgba(255,57,46,1.00);
+    outline: 4px solid rgba(255,57,46,0.5);
+}

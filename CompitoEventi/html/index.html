@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <div class="container">
+        <!--Crea un form (get) dal quale acquisisci username (min 5 caratteri) e messaggio (textArea max 100 caratteri).
+            Sotto la textarea deve esserci un contatore che scala ogni singolo carattere. Arrivato a 0 impedisco all'utente
+            di scrivere ulteriormente. Gestisci tutto con Eventi keyboard.
+            Quando è tutto completo clicca su Invia e stampa sotto il form lo username e il messaggio.
+            ATT: username e messaggio devono essere salvati in un oggetto. Valuta la possibilità di avere più messaggi per
+            lo stesso utente.-->
+        <form id="msgForm" class="mt-3">
+            <div class="mb-3 m-auto w-50">
+                <label for="username" class="form-label">Username: </label>
+                <input type="text" placeholder="Username" id="elUsername" class="form-control">
+            </div>
+            
+            <div class="mb-3 m-auto w-50">
+                <label for="message" class="form-label">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                <p id="contatore"></p>
+            </div>
+        </form>
+
+        <div class="row"><button type="submit" id="btnSubmit" class="col-2 col-lg-1 btn btn-primary mb-3 m-auto">Invia</button></div>
+        <div id="msgCompleto" class="row w-50 m-auto">
+            <p id = "userP" class="mb-3"></p>
+            <p id = "messageP" class="mb-3"></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/index.js"></script>
+</body>
+</html>
