@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg{
+    background: linear-gradient(to right,   
+    #f6f6f6 0%,
+    #f6f6f6 50%,
+    #c4d9ef 50%,
+    #c4d9ef 100%);
+}
+
+.msg-bg{
+    padding:15px;
+}
+
+.msg-m-bg{
+    background-image: linear-gradient(to top right, #f6d3d4, #fffcfc);
+    padding:15px;
+    border-radius: 1rem 0 1rem 1rem;
+}
+
+.msg-utenti{
+    border-radius: 0 1rem 1rem 1rem;
+}
+
+.msg-utenti-lilac{
+    background-image: linear-gradient(to top left, rgb(152,150,240), rgb(255,206,236));
+}
+
+.msg-utenti-green{
+    background-image: linear-gradient(to bottom right, rgb(255,245,203),rgb(182,227,212));
+}
+
+.msg-utenti-rose{
+    background-image: linear-gradient(to bottom right, rgb(238,238,238),#f78da7);
+}
+
+.usrnm{
+    font-size: 1.2rem;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mt-usrnm {
+    font-size:0.9rem;
+    text-align: end;
+    font-weight: 700;
+}
+
+.allUsers-usrnm {
+    font-size:0.9rem;
+    text-align:start;
+    font-weight: 700;
+}
+
+.lbtn{
+    padding: 0.5rem 1rem;
+    background-color: #14bdad;
+    color: #ffffff;
+    border-radius:5px;
+    border: 0;
+}
+
+.lbtn-logout{
+    background-color: #dc3545;
+}
