@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 .bg{
-    background-image: url("../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg");
+    background-image: url("../img/alex-shutin-kKvQJ6rK6S4-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -12,8 +10,8 @@
 }
 
 .formBg{
-    background-color:rgba(183,221,230,0.8);
-    border-radius: 5%;
+    background-color:rgba(183,221,230,0.5);
+    border-radius: 6%;
 }
 
 .lbtn{
@@ -34,9 +32,7 @@
     width: 100%;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
-    font-family: "Lato", sans-serif;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     color: rgb(48,55,66);
     background-color: transparent;
@@ -50,17 +46,12 @@
 
 input:focus, input:active{
     background-color: transparent;
-    border: 2px solid #edf1fe;
+    border: 1px solid #edf1fe;
     outline:none;
-    border-radius: 5px;
 }
 
 .h1L{
-    font-size: 1.4rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
+    font-size: 1.8rem;
 }
 
 input:-webkit-autofill { 
