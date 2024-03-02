@@ -1,0 +1,222 @@
+body
+{
+	background-color:#F5F5F1;
+    max-width:100%;
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+.header
+{
+	width:100%;
+	height:100px;
+}
+@font-face
+{
+	font-family:'Great Vibes';
+	src: url('GreatVibes-Regular.otf');
+}
+.history
+{
+	font-size:35px;
+	font-family:'Great Vibes';
+	display:inline-block;
+	padding-top:25px;
+	width:20%;
+	margin-left:5%;
+	vertical-align:middle;
+	color:#333;
+}
+
+.menu
+{
+	font-family:Muli;
+	font-size:10px;
+	color:#333;
+	padding-top:25px;
+	vertical-align:middle;
+	display:inline-block;
+	text-transform:uppercase;
+	margin-left:50%;
+
+}
+
+.line 
+{
+    height:20px;
+	vertical-align:middle;
+	border-right: 1px solid #c6cccc;
+	transform:
+	rotate(25deg);
+	position: absolute;
+	display:inline-block;
+}
+
+.container
+{
+	width:80%;
+	margin-left:5%;
+	background-color:#E3E3DD;
+	overflow-y:scroll;
+	display:inline-block;
+	max-height:1200px;
+
+}
+
+
+.his 
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.his_img
+{
+	max-width:40%;
+	float:left;
+	height:auto;
+	padding:5px;
+	margin-left:12%;
+}
+
+.clearfix 
+{
+    overflow: auto;
+}
+
+.his_span
+{
+	font-family:Muli;
+	max-width:35%;
+	font-size:24px;
+	text-align:center;
+	display:flex;
+	padding:5px;
+	text-transform:uppercase;
+	font-weight:bold;
+	letter-spacing:2px;
+	
+}
+
+.his_p
+{
+	font-family:Muli;
+	font-size:12px;
+    max-width:35%;
+	text-align:justify;
+	padding:5px;
+	display:inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+	height: 20px;
+
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background:#c6cccc;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+		height:5px;
+    background: black; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #c6cccc; 
+	height:5px;
+}
+
+.footer
+{   
+    height:calc(100% - 50px);
+	display:inline;
+	width:15%;
+	height:80%;
+	float:right;
+	position:fixed;
+}
+
+.aNav:active, .aNav:link,  .aNav:visited
+{
+	color:#333;
+	text-decoration:none;
+}
+
+.aNav:hover
+{
+	color:#c3cccc;
+	text-decoration:none;
+}
+
+.span_menu_inact
+{
+	width:16%;
+	height:50px;
+}
+
+
+.span_menu:hover
+{
+	background-color:#B7C7D7;
+}
+
+.vl {
+    border-left: 1px solid #fcfcfc;
+    height: 50px;
+}
+
+.aNav:active, .aNav:link, .aNav:hover, .aNav:visited
+{
+	text-decoration:none;
+	color:white;
+}
+
+.obs_img1
+{
+	max-width:35%;
+	float:left;
+	height:auto;
+	padding:5px;
+	margin-left:15%;
+}
+
+
+
+.obs_span
+{
+	font-family:Abril Fatface;
+	max-width:35%;
+	font-size:1.5em;
+	display:flex;
+	padding:5px;
+	letter-spacing:4px;
+}
+
+.obs_p
+{
+	font-family:Muli;
+	font-size:0.75em;
+    max-width:35%;
+	padding:5px;
+	display:inline-block;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.obs_img2
+{
+	max-width:35%;
+	float:right;
+	padding:5px;
+	margin-right:13%;
+}

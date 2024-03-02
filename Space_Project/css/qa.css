@@ -1,0 +1,163 @@
+body {
+  background: #f5f5f1;
+  color: #333;
+  max-width:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  font-size:100%;
+}
+
+h1
+{
+	letter-spacing:2px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:1em;
+	font-weight:200;
+	text-transform:uppercase;
+    line-height:0;
+	color:rgba(214, 80, 118, 0.9);
+
+}
+
+#form 
+{
+  position: relative;
+  width: 402px;
+  margin: 50px auto 100px auto;
+}
+
+input.text
+{
+  font-family: Muli, sans-serif;
+  font-size: 0.73em;
+  letter-spacing:2px;
+  width: 400px;
+  height: 30px;
+  text-align:center;
+ 
+  color: #333;
+ 
+  border: solid 1px #b5b5b5;
+  box-shadow: inset 0 0 1px #000;
+}
+
+input.text:hover 
+{
+  border: solid 1px #333;
+}
+
+textarea 
+{
+  width:400px;
+  max-width: 400px;
+  height: 100px;
+  max-height: 110px;
+  
+  outline: none;
+  text-align:center;
+  
+  color: #333;
+  font-family: Muli, sans-serif;
+  font-size: 0.73em;
+  letter-spacing:2px;
+  
+  border: solid 1px #b5b5b5;
+  box-shadow: inset 0 0 1px #000;
+}
+
+textarea:hover 
+{
+  border: solid 1px #333;
+}
+
+#submit {
+  width: 405px;
+  padding: 0;
+  height:30px;
+  border:none;
+  
+  font-family: Lato, sans-serif;
+  font-size: 0.73em;
+  letter-spacing:2px;
+  
+  color: #f5f5f1;
+  
+  outline:none;
+  cursor: pointer;
+  text-align:center;
+  background-color:rgba(214, 80, 118, 0.9);
+
+}
+
+#submit:hover 
+{
+  border: solid 1px #333;
+}
+
+header
+{
+	height:50px;
+	line-height:50px;
+	background-color:rgba(214, 80, 118, 0.9);
+	border-bottom:1px solid #c6cccc;
+	box-shadow: 0px 0px 2px #c6cccc;
+	text-align:center;
+	position:sticky;
+	z-index:1;
+	top:0;
+}
+
+.img_head
+{
+    height:18px;
+	margin-top:calc((50px - 18px)/2);
+}
+
+.btm:active, .btm:link, .btm:visited
+{
+	font-family:Muli;
+	letter-spacing:2px;
+	text-align:center;
+	font-size:0.5em;
+	vertical-align:middle;
+	height:50px;
+	text-decoration:none;
+	color:#F5F5F1;
+	text-transform:uppercase;
+}
+
+.btm:hover
+{
+	color:white;
+	letter-spacing:3px;
+}
+
+#git
+{
+	float:left;
+	margin-left:15%;
+	width:200px;
+	margin-top:50px;
+}
+
+p.p_git
+{
+	font-family:Muli;
+	font-size:0.7em;
+	line-height:2em;
+	color:#333;
+}
+
+#sc
+{
+	float:right;
+	margin-right:15%;
+	width:200px;
+	margin-top:50px;
+}
+
+img.social
+{
+	width:15px;
+}
