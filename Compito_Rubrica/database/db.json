@@ -1,0 +1,165 @@
+{
+  "rubrica": [
+    {
+      "id": "3",
+      "nome": "Alice",
+      "cognome": "Smith",
+      "email": "alice.smith@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "4",
+      "nome": "Michael",
+      "cognome": "Johnson",
+      "email": "michael.johnson@example.com",
+      "tel": "555-555-5555"
+    },
+    {
+      "id": "6",
+      "nome": "Daniel",
+      "cognome": "Martinez",
+      "email": "daniel.martinez@example.com",
+      "tel": "555-555-1234"
+    },
+    {
+      "id": "7",
+      "nome": "Sophia",
+      "cognome": "Garcia",
+      "email": "sophia.garcia@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "8",
+      "nome": "James",
+      "cognome": "Taylor",
+      "email": "james.taylor@example.com",
+      "tel": "1234567890"
+    },
+    {
+      "id": "9",
+      "nome": "Olivia",
+      "cognome": "Wilson",
+      "email": "olivia.wilson@example.com",
+      "tel": "123-456-7890"
+    },
+    {
+      "id": "10",
+      "nome": "Benjamin",
+      "cognome": "Lopez",
+      "email": "benjamin.lopez@example.com",
+      "tel": "123-456-7890"
+    },
+    {
+      "id": "11",
+      "nome": "Amelia",
+      "cognome": "Garcia",
+      "email": "amelia.garcia@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "12",
+      "nome": "William",
+      "cognome": "Lee",
+      "email": "william.lee@example.com",
+      "tel": "555-555-5555"
+    },
+    {
+      "id": "13",
+      "nome": "Mia",
+      "cognome": "Hernandez",
+      "email": "mia.hernandez@example.com",
+      "tel": "123-123-1234"
+    },
+    {
+      "id": "14",
+      "nome": "Elijah",
+      "cognome": "Walker",
+      "email": "elijah.walker@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "15",
+      "nome": "Ava",
+      "cognome": "Young",
+      "email": "ava.young@example.com",
+      "tel": "1234567890"
+    },
+    {
+      "id": "16",
+      "nome": "Logan",
+      "cognome": "Harris",
+      "email": "logan.harris@example.com",
+      "tel": "123-456-7890"
+    },
+    {
+      "id": "17",
+      "nome": "Charlotte",
+      "cognome": "Thomas",
+      "email": "charlotte.thomas@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "19",
+      "nome": "Madison",
+      "cognome": "Wright",
+      "email": "madison.wright@example.com",
+      "tel": "123-123-1234"
+    },
+    {
+      "id": "20",
+      "nome": "Lucas",
+      "cognome": "Lopez",
+      "email": "lucas.lopez@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "21",
+      "nome": "Luna",
+      "cognome": "Hernandez",
+      "email": "luna.hernandez@example.com",
+      "tel": "1234567890"
+    },
+    {
+      "id": "22",
+      "nome": "Jackson",
+      "cognome": "Garcia",
+      "email": "jackson.garcia@example.com",
+      "tel": "123-456-7890"
+    },
+    {
+      "id": "23",
+      "nome": "Avery",
+      "cognome": "Brown",
+      "email": "avery.brown@example.com",
+      "tel": "(123) 456-7890"
+    },
+    {
+      "id": "24",
+      "nome": "Ethan",
+      "cognome": "Miller",
+      "email": "ethan.miller@example.com",
+      "tel": "555-555-5555"
+    },
+    {
+      "id": "26",
+      "nome": "Sebastian",
+      "cognome": "Martinez",
+      "email": "sebastian.martinez@example.com",
+      "tel": "(123) 456"
+    },
+    {
+      "id": "501f",
+      "nome": "Luminita",
+      "cognome": "Scoarta",
+      "email": "scoartaluminita@gmail.com",
+      "tel": "321465789"
+    },
+    {
+      "id": "8508",
+      "nome": "Luminita",
+      "cognome": "Scoarta",
+      "email": "scoartaluminita@gmail.com",
+      "tel": "2124545"
+    }
+  ]
+}
