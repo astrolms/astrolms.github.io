@@ -1,0 +1,31 @@
+#main
+{
+	margin-top:7%;
+	margin-bottom:5%;
+}
+
+.caption
+{
+	font-family:Muli;
+	font-size:0.75em;
+	text-align:center;
+	width:20%;
+	height:100%;
+	position:absolute;
+	top:50%;
+	left:20%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+	font-weight:500;
+	letter-spacing:1px;
+	margin-left:30%;
+    text-transform:uppercase;
+	color:#333;
+	background-color:rgba(198, 204, 204, 1);
+	
+}
+
+.name
+{
+	color:black;
+}

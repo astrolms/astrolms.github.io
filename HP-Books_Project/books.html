@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Books</title>
+	<link rel="stylesheet" href="css/books.css">
+	<link rel="stylesheet" href="css/header_footer.css">
+	<link rel="stylesheet" href="css/articles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
+	
+    <style>
+        .mySlides {display:none}
+        .w3-left, .w3-right, .w3-badge {cursor:pointer}
+        .w3-badge {height:13px;width:13px;padding:0}
+    </style>
+	<script type="text/javascript" src="js/articles.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!--************************************************************************** HEADER ****************************************************************-->
+	<section class="header_img">	
+		<header>
+			<nav>
+			<ul>
+				<li><a href="site.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Media</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			</nav>
+		</header>
+	</section>
+	<!--------------------------------------------------------END header-------------------------------------------------------------------------->
+<!-- -----------------------------------------slider container---------------------------------------------------->
+    <div class="w3-content w3-display-container" id="main">
+
+    <div class="w3-display-container mySlides this">
+        <img src="photo/b1.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            <span class="name">The Hogwarts Express </span> 
+        </div>
+    </div>
+
+    <div class="w3-display-container mySlides this">
+        <img src="photo/b2.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            Wizarding World - Blue Hour
+        </div>
+    </div>
+	
+    <div class="w3-display-container mySlides this">
+        <img src="photo/b3.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            Step Right Up
+        </div>
+    </div>
+	
+	 <div class="w3-display-container mySlides this">
+        <img src="photo/b4.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            Three Fishy Broomsticks
+        </div>
+    </div>
+	
+	<div class="w3-display-container mySlides this">
+        <img src="photo/b5.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            To King's Cross
+        </div>
+    </div>
+	
+	<div class="w3-display-container mySlides this">
+        <img src="photo/b6.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            To King's Cross
+        </div>
+    </div>
+	
+	<div class="w3-display-container mySlides this">
+        <img src="photo/b7.jpeg" style="width:20%;margin-left:30%;">
+        <div class="w3-container w3-padding-16 w3-black caption">
+            <span class="name">Harry Potter and the Deathly Hallows</span>
+        </div>
+    </div>
+
+    <img src="photo/left.svg" style="height:55px;"class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
+    <img src="photo/right.svg" style="height:55px;"class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("this");
+		var y = document.getElementsByClassName("that");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 		
+        }
+        x[slideIndex-1].style.display = "block";	
+        }
+    </script>
+	
+	<!--footer-->
+	<footer>
+		<section class="pay">
+			<div class="social">
+				<img src="photo/facebook.svg">
+				<img src="photo/twitter.svg">
+				<img src="photo/google.svg">
+			</div>
+			
+			<div class="title_f">
+				<h1>Harry Potter</h1>
+			</div>
+			
+			<div class="payment">
+				<img src="photo/paypal.svg">
+				<img src="photo/visa.svg">
+				<img src="photo/western-union.svg">
+			</div>
+		</section>
+		
+		
+		<section class="contacts">
+			<div class="f_mail">
+				<img src="photo/mail.svg">
+				<p class="f_cont">Mail</p>
+				<p class="f_det">lscoarta@gmail.com</p>
+			</div>
+			
+			<div class="f_phone">
+				<img src="photo/phone2.svg">
+				<p class="f_cont">Call</p>
+				<p class="f_det">+323609812</p>
+			</div>
+			
+			<div class="f_loc">
+				<img src="photo/placeholder.svg">
+				<p class="f_cont">Find Us!</p>
+				<p class="f_det">Chisinau,RM</p>
+			</div>
+		</section>
+		
+		<div class="rights">
+			<p>@SLabs All Rights Reserved</p>
+		</div>
+	</footer>
+</body>
+</html>

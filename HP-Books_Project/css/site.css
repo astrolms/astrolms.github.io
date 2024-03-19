@@ -1,0 +1,552 @@
+body
+{
+	display:grid;
+	margin:0;
+	padding:0;
+	grid-template-columns:50% 25% 25%;
+	align-items:center;
+	grid-template-rows:repeat(8,auto);
+	grid-column-gap:0;
+	grid-template-areas:
+	"header_img header_img header_img"
+	"synopsis_text gryff slyth"
+	"synopsis_text huf raven"
+	"location location_text location_text"
+	"author_about author author"
+	"bm bm bm"
+	"mesg mesg mesg"
+	"footer footer footer";
+}
+
+/* -------------------------------------------------------------- synopsis ------------------------------------------------------------------------*/
+.synopsis_text
+{
+	grid-area:synopsis_text;
+}
+
+.gryff
+{
+	grid-area:gryff;
+}
+
+.huf
+{
+	grid-area:huf;
+}
+
+.raven
+{
+	grid-area:raven;
+}
+
+.slyth
+{
+	grid-area:slyth;
+}
+
+.houses_img
+{
+	width:100%;
+	display:block;
+}
+
+.synopsis_text p, .location_text p, .author_about p
+{
+	width:60%;
+	margin-left:20%;
+	text-align:justify;
+	font-family: 'EB Garamond', serif;
+	font-size:.85em;
+	letter-spacing:1px;
+}
+
+.synopsis_text h1, .location_text h1, .author_about h1
+{
+	font-family: 'Quicksand', sans-serif;
+	text-transform:uppercase;
+	width:70%;
+	margin-left:15%;
+	text-align:center;
+	letter-spacing:2px;
+	font-weight:300;
+	font-size:2em;
+}
+
+/* ----------------------------------------------------------- END synopsis ------------------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------- The Wizarding World of Harry Potter -------------------------------------------------*/
+.location
+{
+	grid-area:location;
+}
+
+.img_loc
+{
+	width:100%;
+	display:block;
+}
+
+.location_text
+{
+	grid-area:location_text;
+}
+
+
+/* ----------------------------------------------------------- END The Wizarding World of Harry Potter ------------------------------------------*/
+
+
+/* ----------------------------------------------------------- Books/Movies ---------------------------------------------------------------------*/
+
+.bm
+{
+	display:grid;
+	grid-area:bm;
+	grid-template-columns:50% 50%;
+	grid-template-rows:1fr;
+	grid-template-areas: 
+	"books movies";
+}
+
+.books
+{
+	grid-area:books;
+	position: relative;
+}
+
+.image
+{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.movies
+{
+	grid-area:movies;
+	position:relative;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%)
+}
+
+.books:hover .middle 
+{
+  opacity: 1;
+}
+
+.books:hover .image 
+{
+  opacity: .6;
+}
+
+.movies:hover .image 
+{
+  opacity: .6;
+}
+
+.text 
+{
+	color: white;
+	font-family:'Quicksand',sans-serif;
+	font-size:.6em;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	background-color: #B93A32;
+	color: #f1f1f5;
+	padding: 10px 20px;
+}
+
+.movies:hover .middle 
+{
+	opacity: 1;
+}
+/* ----------------------------------------------------------- END Books/Movies -----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------- Author -----------------------------------------------------------------*/
+.author_about
+{
+	grid-area:author_about;
+}
+
+.author
+{
+	grid-area:author;
+}
+
+.author img
+{
+	width:100%;
+	display:block;
+}
+
+p.sign
+{
+	font-family: Sacramento, cursive;
+	font-size:1.3em;
+	text-align:right;
+	line-height:1em;
+}
+
+.next
+{
+	width:3%;
+	animation-name:read_more;
+	animation-duration:0.6s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+	animation-direction:alternate;
+	vertical-align:middle;
+
+}
+
+p.more
+{
+	text-align:center;
+}
+
+p.more a:active, p.more a:visited, p.more a:link
+{
+	margin-left:10px;
+	font-family:'Quicksand',sans-serif;
+	font-size:.7em;
+	text-transform:uppercase;
+	color:#333;
+	text-decoration:none;
+	letter-spacing:1px;
+	padding:5px 5px;
+}
+
+p.more a:hover
+{
+	background-color:#aaa;
+	color:#f1f1f5;
+}
+
+@keyframes read_more
+{
+	0% {transform:translate(2px);}
+	25% {transform:translate(4px);}
+	50% {transform:translate(6px);}
+	75% {transform:translate(8px);}
+	100% {transform:translate(10px);}
+}
+
+/* ----------------------------------------------------------- END Author -----------------------------------------------------------------*/
+/* ----------------------------------------------------------- Message --------------------------------------------------------------------------*/
+.mesg
+{
+	/*background-image:url("photo/Emibh.png");
+	background-position:center;
+	background-size:100%;*/
+	display:grid;
+	grid-area:mesg;
+	grid-template-columns:1fr;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"h3"
+	"form";
+}
+
+.mesg h3
+{
+	grid-area:h3;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:.8em;
+	letter-spacing:2px;
+	padding:30px 0;
+	margin:0;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+form
+{
+	grid-area:form;
+	display:grid;
+	grid-row-gap:20px;
+	grid-template-columns:50% 50%;
+	grid-template-rows:auto;
+	grid-template-areas: 
+	"name email"
+	"last_name phone"
+	"message message"
+	"submit submit";
+}
+
+input.name
+{
+	grid-area:name;
+	padding:1em;
+	width:40%;
+	margin-left:59%;
+	background-image: url(photo/user.svg);
+	height:2em;
+}
+
+input.last_name
+{
+	grid-area:last_name;
+	padding:1em;
+	width:40%;
+	background-image: url(photo/surname.svg);
+	margin-left:59%;
+	height:2em;
+}
+
+input[type=email],input[type=text]
+{
+	background-size:calc(100% - 94%);
+    background-repeat:no-repeat;
+	background-position: .5em 50%;
+    text-indent: 1em;
+}
+input[type=email]
+{
+	grid-area:email;
+	padding:1em;
+	margin-left:1%;
+	width:40%;
+	height:2em;
+	background-image: url(photo/at.svg);
+}
+
+input[type=email]:focus
+{
+	box-shadow:none;
+	border:1px solid #333;
+}
+
+input.phone
+{
+	grid-area:phone;
+	width:40%;
+	padding:1em;
+	margin-left:1%;
+	background-image: url(photo/phone.svg);
+	height:2em;
+}
+input[type=submit]
+{
+	grid-area:submit;
+	text-align:center;
+	border:none;
+	background-color:#333;
+	font-family:Muli;
+	color:#ccc;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	width:10%;
+	height:2em;
+	margin-left:45%;
+	margin-bottom:30px;
+	margin-top:10px;
+}
+
+textarea
+{
+	grid-area:message;
+	padding:10px;
+	width:41%;
+	height:12em;
+	margin-left:calc((100% - 41%)/2);
+	margin-bottom:0;
+}
+
+textarea:focus
+{
+	border:1px solid #333;
+	box-shadow:none;
+}
+
+input[type=text], textarea, input[type=email]
+{
+	border:1px solid #bbb;
+	box-shadow: inset 0 2px 0 #C6CDD2;
+	outline:none;
+}
+input[type=text]:focus
+{
+	border:1px solid black;
+	border-radius:0;
+	box-shadow:none;
+	outline:none;
+}
+
+/****************************************** RESPONSIVE ******************************************************************************/
+@media only screen and (max-width: 1024px) {
+    body 
+	{
+        display:grid;
+		margin:0;
+		grid-template-columns:50% 25% 25%;
+		align-items:center;
+		grid-template-rows:repeat(7,auto);
+		grid-column-gap:0;
+		grid-template-areas:
+		"header_img header_img header_img"
+		"synopsis_text gryff slyth"
+		"synopsis_text huf raven"
+		"location location_text location_text"
+		"author_about author author"
+		"bm bm bm"
+		"mesg mesg mesg"
+		"footer footer footer";
+    }
+	
+	
+	.location_text p, .synopsis_text p, .author_about p
+	{
+		font-size:0.85em;
+	}
+	
+	.mesg
+	{
+		display:grid;
+		grid-template-columns:100%;
+		grid-template-rows:repeat(2,100%);
+		grid-template-areas:
+		"h3"
+		"form";
+	}
+	
+	form
+	{
+		display:grid;
+		grid-template-columns:1fr;
+		align-items:center;
+		grid-template-rows:repeat(6,auto);
+		grid-template-areas: 
+		"name" 
+		"last_name"
+		"email"
+		"phone"
+		"message"
+		"submit"
+		;
+	}
+	
+	input[type=text],input[type=email],textarea
+	{
+		margin-left:20%;
+		width:60%;
+	}
+	
+	input[type=submit]
+	{
+		width:20%;
+		grid-area:submit;
+		margin-left:40%;
+	}
+	
+	div.centered
+	{
+		font-size:1.5em;
+	}
+}
+
+@media only screen and (max-width:768px) {
+    body 
+	{
+        display:grid;
+		margin:0;
+		grid-template-columns:50% 50%;
+		align-items:center;
+		grid-template-rows:repeat(5,auto);
+		grid-column-gap:0;
+		grid-template-areas:
+		"header_img header_img"
+		"synopsis_text synopsis_text" 
+		"gryff slyth"
+		"huf raven"
+		"location_text location_text"
+		"location location"
+		"author_about author_about"
+		"author author"
+		"bm bm"
+		"mesg mesg"
+		"footer footer";
+    }
+	
+	.location_text p, .synopsis_text p
+	{
+		font-size:0.85em;
+	}
+	
+	.payment img
+	{
+		max-width:1.8em;
+	}
+	
+	.social img
+	{
+		max-width:1.2em;
+	}
+	
+	div.centered
+	{
+		font-size:1em;
+	}
+	
+	.title_f 
+	{
+		font-size:.8em;
+	}
+	
+	.mesg
+	{
+		display:grid;
+		grid-template-columns:100%;
+		grid-template-rows:repeat(2,100%);
+		grid-template-areas:
+		"h3"
+		"form";
+	}
+	
+	form
+	{
+		display:grid;
+		grid-template-columns:1fr;
+		align-items:center;
+		grid-template-rows:repeat(6,auto);
+		grid-template-areas: 
+		"name" 
+		"last_name"
+		"email"
+		"phone"
+		"message"
+		"submit";
+	}
+	
+	input[type=text],input[type=email],textarea
+	{
+		margin-left:20%;
+		width:60%;
+	}
+	
+	input[type=submit]
+	{
+		width:20%;
+		grid-area:submit;
+		margin-left:40%;
+	}
+}
+
+@media only screen and (max-width:450px)
+{
+	.centered
+	{
+		font-size:1em;
+	}
+}
