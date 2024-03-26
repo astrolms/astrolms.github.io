@@ -1,0 +1,151 @@
+{
+  "viaggi": [
+    {
+      "id": "1",
+      "tratte": "Torino - Napoli",
+      "costo": 100,
+      "mezzo": "Treno",
+      "durata": "6h",
+      "data": "20/03/2024",
+      "postiDisponibili": 30,
+      "tiplogia": [
+        {
+          "nome": "Business",
+          "costo": 50
+        },
+        {
+          "nome": "Premium",
+          "costo": 20
+        },
+        {
+          "nome": "Base",
+          "costo": 0
+        }
+      ],
+      "locandina": "https://image-tc.galaxy.tf/wijpeg-8bmd38f29tlx3b2lpczlqtr8r/1-cosa-visitare-a-napoli-copertina_wide.jpg?crop=119%2C0%2C1742%2C980",
+      "disponibilita": true
+    },
+    {
+      "id": "2",
+      "tratte": "Roma - Barcellona",
+      "costo": 150,
+      "mezzo": "Aereo",
+      "durata": "2h",
+      "data": "20/03/2024",
+      "postiDisponibili": 10,
+      "tiplogia": [
+        {
+          "nome": "Business",
+          "costo": 50
+        },
+        {
+          "nome": "Premium",
+          "costo": 20
+        },
+        {
+          "nome": "Base",
+          "costo": 0
+        }
+      ],
+      "locandina": "https://www.spagna.info/wp-content/uploads/sites/39/barcellona.jpg",
+      "disponibilita": true
+    },
+    {
+      "id": "3",
+      "tratte": "Torino - Tokyo",
+      "costo": 800,
+      "mezzo": "Aereo",
+      "durata": "15h",
+      "data": "29/03/2024",
+      "postiDisponibili": 25,
+      "tiplogia": [
+        {
+          "nome": "Business",
+          "costo": 50
+        },
+        {
+          "nome": "Premium",
+          "costo": 20
+        },
+        {
+          "nome": "Base",
+          "costo": 0
+        }
+      ],
+      "locandina": "https://media-assets.vanityfair.it/photos/644c24f7cd60f0ca3be60db8/16:9/w_1920%2Cc_limit/AdobeStock_251121174.jpeg",
+      "disponibilita": true
+    },
+    {
+      "id": "4",
+      "tratte": "Torino - Budapest",
+      "costo": 800,
+      "mezzo": "Aereo",
+      "durata": "2h",
+      "data": "30/03/2024",
+      "postiDisponibili": 10,
+      "tiplogia": [
+        {
+          "nome": "Business",
+          "costo": 50
+        },
+        {
+          "nome": "Premium",
+          "costo": 20
+        },
+        {
+          "nome": "Base",
+          "costo": 0
+        }
+      ],
+      "locandina": "https://a.cdn-hotels.com/gdcs/production191/d1300/c8bfd81c-2932-4411-a7a3-5eabfc30664b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+      "disponibilita": true
+    }
+  ],
+  "bigliettiAcquistati": [
+    {
+      "id": "1",
+      "nome": "Luminita",
+      "cognome": "Scoarta",
+      "tratte": [
+        "2",
+        "1"
+      ],
+      "email": "scoartaluminita@gmail.com",
+      "metodoPagamento": "PayPal"
+    },
+    {
+      "id": "b0ec",
+      "nome": "Mariah",
+      "tratte": [
+        "1",
+        "2"
+      ],
+      "email": "mc@singing.com",
+      "pagamento": "Card"
+    },
+    {
+      "id": "594c",
+      "nome": "President",
+      "cognome": "BidnCopyright",
+      "tratte": [
+        "3",
+        "4",
+        "2"
+      ],
+      "email": "copy@edu.it",
+      "pagamento": "PayPal"
+    },
+    {
+      "id": "2732",
+      "nome": "Devin",
+      "cognome": "Stolen",
+      "tratte": [
+        "1",
+        "2",
+        "4"
+      ],
+      "email": "devin@gmail.com",
+      "pagamento": "Card"
+    }
+  ]
+}
